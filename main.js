@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=document.getElementById("content"),t=document.createElement("div"),d=document.createTextNode("Yanni's Pizzeria");t.setAttribute("id","header"),t.appendChild(d),e.appendChild(t),console.log("This is inital load, imported to index.js, then bundled up and spat out via dist/main.js")})();
