@@ -1,31 +1,62 @@
-#body{
-  display: flex;
-
-  justify-content: center;
-}
- 
 #content{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: auto;
 }
 
-
-
-
-#para {
-    color:black;
-    font-size: large;
-    opacity: 100% !important;
-    text-align: center;
-    font-size: 4rem;
-    
-}
-
-#header{
-  font-size: 5rem;
-  color: blue;
+#headerID{
+  display: flex;
+  flex-direction: column;
+  font-size: 8rem;
   text-align: center;
-  
+  margin: auto;
+  width: 600px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: white;
 }
 
+#backGroundImage {
+ width: auto;
+ height: 100vh;
+ align-self: center;
+}
+
+#main{
+  display: flex;
+  align-content: center;
+  margin: auto;
+  border: cornflowerblue 3px solid;
+  position: relative;
+}
+
+#navBar{
+  height: 120px;
+  color: white;
+  font-size: 50px;
+  position:absolute;
+  top: 90px;
+  left: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+#blurbHolder{
+  font-size: 30px;
+  margin: auto;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+  width: 600px;
+  text-align: right;
+}
+
+.navTab{
+ margin-left: 40px;
+ margin-right: 40px;
+
+ 
+}
