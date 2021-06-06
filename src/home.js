@@ -1,6 +1,9 @@
 const home = () =>{
 
-
+  if (document.getElementById('mainM') !==null) {
+    alert('MainM is here and should be deleted');
+    mainM.remove();
+}
 
 //1. create main container
  const mainH = document.createElement('div');
