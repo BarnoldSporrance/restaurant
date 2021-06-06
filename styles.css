@@ -82,3 +82,33 @@
   z-index: -10;
   max-width: 1428px;
 }
+
+#menuWrapper{
+  position: absolute;
+  top: 20vh;
+  left: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  z-index: 40;
+  border: white solid 1px;
+  padding: 10px 20px 20px 10px;
+  border-radius: 10%;
+}
+
+.dishTitle{
+  font-size: 35px;
+  color:white;
+  margin: 10px;
+
+  
+}
+
+.description{
+  font-size: 25px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
