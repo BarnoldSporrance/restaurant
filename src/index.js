@@ -6,16 +6,15 @@ import { home } from './home.js'
 
 
 initialLoad();
+
+
 home(); 
 
 document.getElementById('contactTab').addEventListener("click", contact);
 
 document.getElementById('menuTab').addEventListener("click", menu);
 
-document.getElementById('homeTab').addEventListener('click', initialLoad);
-
-
-
+document.getElementById('homeTab').addEventListener('click', home);
 
 
 
