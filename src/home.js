@@ -3,12 +3,11 @@ const home = () =>{
 
 
 if (document.getElementById('mainC') !==null) {
-    alert('MainC is here and should be deleted');
+   
     mainC.remove();
 }
 
 if (document.getElementById('mainM') !==null) {
-    alert('MainM is here and should be deleted to avoid repeat');
     mainM.remove();
 }
 

@@ -2,12 +2,12 @@ const menu = () => {
 
     
 if (document.getElementById('mainH') !==null) {
-       alert('MainH is here and should be deleted');
+      
        mainH.remove();
 }
 
 if (document.getElementById('mainC') !==null) {
-       alert('MainC is here and should be deleted');
+   
        mainC.remove();
 }
 
