@@ -18,21 +18,21 @@ content.appendChild(navBar);
 const homeTab = document.createElement('div');
 homeTab.setAttribute('id', 'homeTab');
 homeTab.setAttribute('class', 'navTab');
-homeTab.innerText = "Home";
+homeTab.innerText = "HOME";
 navBar.appendChild(homeTab);
 
 //0.2. create contact tab
 const contactTab = document.createElement('div');
 contactTab.setAttribute('id', 'contactTab');
 contactTab.setAttribute('class', 'navTab');
-contactTab.innerText = "Contact";
+contactTab.innerText = "CONTACT";
 navBar.appendChild(contactTab);
 
 //0.3 create menu tab
 const menuTab = document.createElement('div');
 menuTab.setAttribute('id', 'menuTab');
 menuTab.setAttribute('class', 'navTab');
-menuTab.innerText = "Menu";
+menuTab.innerText = "MENU";
 navBar.appendChild(menuTab);
  
 }

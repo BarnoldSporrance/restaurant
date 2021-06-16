@@ -19,7 +19,7 @@ if (document.getElementById('mainC') !==null) {
        
        //2. create header
        const header = document.createElement('div');
-       const headerText = document.createTextNode("Cook dat Food");
+       const headerText = document.createTextNode("COOK DAT FOOD");
        header.setAttribute('id', 'headerID');
        header.appendChild(headerText);
 

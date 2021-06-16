@@ -19,7 +19,7 @@ navBar.classList.remove('whiteFont');
 
 //2. create header
 const header = document.createElement('div');
- const headerText = document.createTextNode("Cook dat Food");
+ const headerText = document.createTextNode("COOK DAT FOOD");
  header.setAttribute('id', 'headerIDC');
 
  header.setAttribute('class', 'blackFont');
@@ -41,6 +41,18 @@ mainC.appendChild(backGroundImage);
 const contactHolder = document.createElement('div');
 contactHolder.setAttribute('id', 'contactHolder');
 contactHolder.setAttribute('class', 'whiteFont');
+
+
+const connect =document.createElement("div");
+connect.setAttribute('id', 'connect');
+connect.innerText = "CONNECT WITH US";
+contactHolder.appendChild(connect);
+
+const iconHolder = document.createElement('div');
+iconHolder.setAttribute('id','iconHolder');
+//iconHolder.setAttribute('class', 'contactDetails');
+contactHolder.appendChild(iconHolder);
+
 
 const contactYoutube = document.createElement("img");
 contactYoutube.setAttribute("class", "contactIcon");
@@ -64,14 +76,14 @@ instaLink.setAttribute('href', 'https://instagram.com/cook_dat_food?utm_medium=c
 instaLink.setAttribute('target', '_blank');
 
 const contactBlurbHolder = document.createElement("div");
-contactBlurbHolder.setAttribute('id', 'contactDetails');
+contactBlurbHolder.setAttribute('id', 'contactBlurbHolder');
 contactBlurbHolder.setAttribute('class', 'contactIcon');
 
 
 
 const blurbC = document.createElement('div');
 blurbC.setAttribute('class', 'contactDetails');
-blurbC.innerText = "Catch us on Instagram & YouTube. Come see what we've got cooking!";
+blurbC.innerText = "I’m a foodie who attended culinary school in Italy to learn to cook properly rather than just cook well. I love food. I love thinking about it, reading about it, talking about it, cooking it, and most of all, eating it. I’m still hungry to learn, and will keep it going! Come see what we've got cooking!";
 contactBlurbHolder.appendChild(blurbC);
 
 const email = document.createElement('div');
@@ -86,10 +98,10 @@ contactBlurbHolder.appendChild(telephone);
 
 
 youTubeLink.appendChild(contactYoutube);
-contactHolder.appendChild(youTubeLink);
+iconHolder.appendChild(youTubeLink);
 
 instaLink.appendChild(contactInsta);
-contactHolder.appendChild(instaLink);
+iconHolder.appendChild(instaLink);
 
 contactHolder.appendChild(contactBlurbHolder);
 
