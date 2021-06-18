@@ -32,7 +32,7 @@ if (document.getElementById('mainM') !==null) {
 
 //3. create background
  const backGroundImage = document.createElement("img");
- backGroundImage.setAttribute("src", "../src/images/salad.jpg");
+ backGroundImage.setAttribute("src", "./images/salad.jpg");
  backGroundImage.setAttribute("id", "backGroundImage");
  mainH.appendChild(backGroundImage);
 

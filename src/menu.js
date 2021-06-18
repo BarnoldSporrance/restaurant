@@ -31,7 +31,7 @@ if (document.getElementById('mainC') !==null) {
        
         //1. create background
         const backGroundImageM = document.createElement("img");
-        backGroundImageM.setAttribute("src", "../src/images/table.jpg");
+        backGroundImageM.setAttribute("src", "./images/table.jpg");
         backGroundImageM.setAttribute("id", "backGroundImageM");
         mainM.appendChild(backGroundImageM);
        
@@ -44,6 +44,10 @@ if (document.getElementById('mainC') !==null) {
        menuWrapper.setAttribute('id', 'menuWrapper');
        
        //fist dish
+       const scottishTitle = document.createElement('div');
+       scottishTitle.setAttribute('class', 'dishTitle');
+       scottishTitle.innerText = 'SCOTLAND';
+
        const dish1 = document.createElement('div');
        dish1.setAttribute('class', 'dish');
        dish1.setAttribute('id', 'dish1');
@@ -57,6 +61,8 @@ if (document.getElementById('mainC') !==null) {
        dish1Description.setAttribute('class', 'description');
        dish1Description.innerText = "Chicken, leak, pearl barley and prunes for flavour"
 
+       menuWrapper.appendChild(scottishTitle);
+       
        dish1Title.appendChild(dish1Description);
        menuWrapper.appendChild(dish1Title);
 
@@ -89,7 +95,7 @@ if (document.getElementById('mainC') !==null) {
 
        const dish3Description = document.createElement('p');
        dish3Description.setAttribute('class', 'description');
-       dish3Description.innerText = "flavorful, hearty smoked ham laces this hearty red lentil & onion broth with real punch."
+       dish3Description.innerText = "flavorful, hearty smoked ham laces this hearty red lentil & onion broth with a real punch."
 
        dish3Title.appendChild(dish3Description);
        menuWrapper.appendChild(dish3Title);
@@ -102,7 +108,7 @@ if (document.getElementById('mainC') !==null) {
        const dish4Title = document.createElement('p');
        dish4Title.setAttribute('class', 'dishTitle');
        dish4Title.setAttribute('id','dish4Title');
-       dish4Title.innerText = "`full Scottish breakfast "
+       dish4Title.innerText = "full Scottish breakfast";
 
        const dish4Description = document.createElement('p');
        dish4Description.setAttribute('class', 'description');
@@ -119,7 +125,7 @@ if (document.getElementById('mainC') !==null) {
        const dish5Title = document.createElement('p');
        dish5Title.setAttribute('class', 'dishTitle');
        dish5Title.setAttribute('id','dish5Title');
-       dish5Title.innerText = "Crunachan";
+       dish5Title.innerText = "crunachan";
 
        const dish5Description = document.createElement('p');
        dish5Description.setAttribute('class', 'description');

@@ -31,7 +31,7 @@ const header = document.createElement('div');
 
 //3. create background
 const backGroundImage = document.createElement("img");
-backGroundImage.setAttribute("src", "../src/images/bulgar.jpg");
+backGroundImage.setAttribute("src", "./images/bulgar.jpg");
 backGroundImage.setAttribute("id", "backGroundImageC");
 mainC.appendChild(backGroundImage);
 
@@ -56,7 +56,7 @@ contactHolder.appendChild(iconHolder);
 
 const contactYoutube = document.createElement("img");
 contactYoutube.setAttribute("class", "contactIcon");
-contactYoutube.setAttribute("src", "../src/images/youtube.png");
+contactYoutube.setAttribute("src", "./images/youtube.png");
 
 
 const youTubeLink = document.createElement("a");
@@ -67,7 +67,7 @@ youTubeLink.setAttribute('href', 'https://www.youtube.com/c/CookdatFood1/feature
 const contactInsta = document.createElement("img");
 contactInsta.setAttribute("class", "contactIcon");
 contactInsta.setAttribute('id', 'instaID')
-contactInsta.setAttribute("src", "../src/images/instagram.png");
+contactInsta.setAttribute("src", "./images/instagram.png");
 
 
 const instaLink = document.createElement("a");
